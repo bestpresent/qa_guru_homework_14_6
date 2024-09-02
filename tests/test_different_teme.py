@@ -27,7 +27,7 @@ def is_dark_theme(current_time=time(hour=16), dark_theme_enabled_by_user=True):
 def test_dark_theme_by_time_and_user_choice():
     """
     Протестируйте правильность переключения темной темы на сайте
-    в зависимости от времени и выбора пользователя
+    в зависимости от   времени и выбора пользователя
     dark_theme_enabled_by_user = True - Темная тема включена
     dark_theme_enabled_by_user = False - Темная тема выключена
     dark_theme_enabled_by_user = None - Пользователь не сделал выбор (используется переключение по времени системы)
